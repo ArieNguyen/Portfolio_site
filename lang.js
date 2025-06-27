@@ -1,19 +1,19 @@
 const translations = {
     vi: {
       greeting: "Xin chào, tôi là Diệu Anh.",
-      "sub-greeting": "Sinh viên năm cuối ngành Khoa học Máy tính",
+      "sub-greeting": "Sinh viên năm tư ngành Khoa học Máy tính",
       "view-project": "Xem dự án",
       contact: "Liên hệ",
       "about-title": "Giới thiệu",
       "about-text": [
         "Họ tên: Nguyễn Thị Diệu Anh",
         "Ngày sinh: 19/04/2003",
-        "Chuyên ngành: Khoa học Máy tính",
+        "Chuyên ngành: [Tên chuyên ngành]",
         "Trường: [Tên trường]",
         "Ngoại ngữ: Tiếng Anh",
-        "Tôi là sinh viên năm cuối ngành Khoa học Máy tính.",
+        "Tôi là sinh viên năm tư ngành Khoa học Máy tính.",
         "Tôi thích tìm hiểu và xây dựng các sản phẩm công nghệ đơn giản để giải quyết vấn đề thực tế.",
-        "Hiện tại, tôi đang học HTML, CSS, JavaScript và React.",
+        "Hiện tại, tôi đang học ...",
         "Dù chưa từng làm việc tại một công ty hay tổ chức chính thức nào, nhưng tôi đã xây dựng các dự án cá nhân của bản thân bằng các ngôn ngữ đã học trên.",
         "Tôi vẫn đang tự học và phát triển mỗi ngày, luôn có mong muốn đóng góp kiến thức cho sự phát triển thực tế."
       ],
@@ -23,19 +23,19 @@ const translations = {
     },
     en: {
       greeting: "Hello, I’m Diệu Anh.",
-      "sub-greeting": "Final-year Computer Science student",
+      "sub-greeting": "Fourth-year Computer Science student",
       "view-project": "View Projects",
       contact: "Contact",
       "about-title": "About",
       "about-text": [
         "Name: Nguyễn Thị Diệu Anh",
         "Date of Birth: 19/04/2003",
-        "Major: Computer Science",
+        "Major: [Major Name]",
         "University: [University Name]",
         "Foreign Language: English",
         "I’m a final-year student majoring in Computer Science.",
         "I enjoy exploring and building simple tech products to solve real-world problems.",
-        "Currently, I’m learning HTML, CSS, JavaScript, and React.",
+        "Currently, I’m learning ...",
         "Although I haven't worked for any company or organization yet, I've built several personal projects using these technologies.",
         "I continue to self-learn and improve daily, aiming to contribute knowledge to real-world development."
       ],
