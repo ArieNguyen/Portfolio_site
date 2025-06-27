@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Song ngữ</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="navbar-wrapper">
+    <nav class="navbar">
+      <div class="lang-switch">
+        <img src="icons8-globe-50.png" alt="Language" class="lang-icon" onclick="toggleLanguageMenu()">
+        <ul class="lang-menu" id="lang-menu">
+          <li onclick="switchLanguage('vi')">Tiếng Việt</li>
+          <li onclick="switchLanguage('en')">English</li>
+        </ul>
+      </div>
+  
+      <div class="nav-left">
+        <span class="nav-logo">Welcome</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  
+    <div class="section-divider"></div>
+  </div>
+
+  <section class="home" id="home">
+    <div class="section-divider"></div>
+    <div class="home-overlay">
+      <div class="home-content">
+        <h1 id="greeting">Xin chào!</h1>
+
+        <p id="sub-greeting">
+          Tôi là Diệu Anh – một sinh viên những năm cuối chuyên ngành Khoa học Máy tính với mong muốn tìm ra giải pháp cho cuộc sống dễ dàng hơn.
+        </p>
+        <div class="btn-group">
+          <a href="#project" class="btn" id="view-project">View Project</a>
+          <a href="#contact" class="btn"id="contact">Contact</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <div class="section-divider"></div>
+    <div class="container">
+      <h2 id="about-title">About</h2>
+      <img src="Screenshot 2025-06-22 160816.png" alt="Ảnh cá nhân">
+      <div id="about-text">
+
+      <p>Họ tên: Nguyễn Thị Diệu Anh</p>
+      <p>Ngày sinh: 19/04/2003 </p>
+      <p>Chuyên ngành: </p>
+      <p>Trường: </p>
+      <p>Ngoại ngữ: </p>
+      <p>Tôi là sinh viên năm cuối ngành Khoa học Máy tính. </p>
+      <p>Tôi thích tìm hiểu và xây dựng các sản phẩm công nghệ đơn giản để giải quyết vấn đề thực tế. </p>
+      <p>Hiện tại, tôi đang học ... </p>
+      <p>Dù chưa từng làm việc tại một công ty hay tổ chức chính thức nào, nhưng tôi đã xây dựng các dự án cá nhân của bản thân bằng các ngôn ngữ đã học trên. </p>
+      <p>Tôi vẫn đang tự học và phát triển mỗi ngày, luôn có mong muốn đóng góp kiến thức cho sự phát triển thực tế. </p>
+    </div>
+  </section>
+
+  <section class="skill-tool" id="skill-tool">
+    <div class="section-divider"></div>
+    <div class="container">
+      <h2 id="skill-title">Skill & Tool </h2>
+    </div>
+  </section>
+
+  <section class="project" id="project">
+    <div class="section-divider"></div>
+    <div class="container">
+      <h2 id="project-title">Project </h2>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section-divider"></div>
+    <div class="container">
+      <h2 id="contact-title">Contact </h2>
+      <div class="contact-icons">
+        <a href="https://github.com/ArieNguyen" target="_blank">
+          <img src="Github icon.png" alt="Ảnh git" class="icon">
+        </a>
+        <a href="https://www.linkedin.com/in/diệu-anh-nguyễn-thị-9b88411bb" target="_blank">
+          <img src="icons8-linkedin-64.png" alt="Ảnh linkedin" class="icon">
+        </a>
+        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#settings/labels" target="_blank">
+          <img src="mail icon.png" alt="Ảnh mail" class="icon">
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <script src="lang.js"></script>
+</body>
+</html>
