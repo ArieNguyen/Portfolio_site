@@ -33,7 +33,7 @@ const translations = {
         "Major: [Major Name]",
         "University: [University Name]",
         "Foreign Language: English",
-        "I’m a final-year student majoring in Computer Science.",
+        "I’m a fourth-year student majoring in Computer Science.",
         "I enjoy exploring and building simple tech products to solve real-world problems.",
         "Currently, I’m learning ...",
         "Although I haven't worked for any company or organization yet, I've built several personal projects using these technologies.",
