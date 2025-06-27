@@ -30,7 +30,7 @@ const translations = {
         "Although I haven't worked for any company or organization yet, I've built several personal projects using these technologies.",
         "I continue to self-learn and improve daily, aiming to contribute knowledge to real-world development."
       ],
-    }
+    } 
   };
   
   function switchLanguage(lang) {
